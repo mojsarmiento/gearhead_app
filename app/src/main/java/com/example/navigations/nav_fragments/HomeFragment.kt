@@ -36,19 +36,19 @@ class HomeFragment : Fragment() {
                     showToast("Home")
                 }
                 R.id.nav_profile -> {
-                    showToast("Profile")
+                    findNavController().navigate(R.id.action_homeFragment_to_profileFragment)
                 }
                 R.id.nav_accessories -> {
-                    showToast("Accessories")
+                    findNavController().navigate(R.id.action_homeFragment_to_accessoriesFragment)
                 }
                 R.id.nav_motorcyles -> {
-                    showToast("Rides")
+                    findNavController().navigate(R.id.action_homeFragment_to_motorcyleFragment)
                 }
                 R.id.nav_cart -> {
-                    showToast("Carts")
+                    findNavController().navigate(R.id.action_homeFragment_to_cartFragment)
                 }
                 R.id.nav_Order_History -> {
-                    showToast("Orders")
+                    findNavController().navigate(R.id.action_homeFragment_to_historyFragment)
                 }
 
                 R.id.nav_Logout -> {
