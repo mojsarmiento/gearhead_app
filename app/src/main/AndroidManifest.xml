@@ -12,12 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Navigations"
         tools:targetApi="31">
-        <activity
-            android:name=".LohinActivity"
-            android:exported="false" />
-        <activity
-            android:name=".Register_act"
-            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
