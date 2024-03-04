@@ -19,17 +19,27 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#9F9A9A"
+            android:background="#f2f3f5"
             android:popupTheme="@style/ThemeOverlay.AppCompat.Light">
 
             <androidx.appcompat.widget.AppCompatImageButton
                 android:id="@+id/btnToggleDrawer"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:contentDescription="@string/navigation_drawer_toggle"
                 android:src="@drawable/apps_24" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GearHead Motoshop"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
         </androidx.appcompat.widget.Toolbar>
 
     </com.google.android.material.appbar.AppBarLayout>
@@ -40,6 +50,7 @@
         android:id="@+id/nav_fragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:background="#F2F3F5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -85,14 +96,14 @@
 
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_width="148dp"
-            android:layout_height="95dp"
+            android:layout_width="144dp"
+            android:layout_height="87dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.592"
+            app:layout_constraintHorizontal_bias="0.484"
             app:layout_constraintStart_toEndOf="@+id/imageView3"
             app:layout_constraintTop_toBottomOf="@+id/textView3"
-            app:layout_constraintVertical_bias="0.066"
+            app:layout_constraintVertical_bias="0.104"
             app:srcCompat="@drawable/kawasaki_logo" />
 
         <ImageView
@@ -113,10 +124,10 @@
             android:layout_height="98dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.55"
+            app:layout_constraintHorizontal_bias="0.547"
             app:layout_constraintStart_toEndOf="@+id/imageView5"
             app:layout_constraintTop_toBottomOf="@+id/imageView4"
-            app:layout_constraintVertical_bias="0.118"
+            app:layout_constraintVertical_bias="0.144"
             app:srcCompat="@drawable/yamaha_logo" />
 
         <ImageView
@@ -138,10 +149,10 @@
             android:layout_height="91dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.895"
+            app:layout_constraintHorizontal_bias="0.896"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView6"
-            app:layout_constraintVertical_bias="0.355"
+            app:layout_constraintVertical_bias="0.347"
             app:srcCompat="@drawable/suzuki_logo" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

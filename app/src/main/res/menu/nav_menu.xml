@@ -12,22 +12,22 @@
             android:icon="@drawable/home_icon"/>
 
         <item
-            android:id="@+id/nav_profile"
-            android:title="Profile"
-            android:icon="@drawable/person_register"/>
+            android:id="@+id/nav_motorcyles"
+            android:title="Motorcycles"
+            android:icon="@drawable/car_rental_24"/>
 
         <item
             android:id="@+id/nav_accessories"
             android:title="Accessories"
             android:icon="@drawable/helmet_accessories_24"/>
 
-        <item
-            android:id="@+id/nav_motorcyles"
-            android:title="Motorcycles"
-            android:icon="@drawable/car_rental_24"/>
-
     </group>
 
+
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/person_register"/>
 
     <item
         android:id="@+id/nav_cart"

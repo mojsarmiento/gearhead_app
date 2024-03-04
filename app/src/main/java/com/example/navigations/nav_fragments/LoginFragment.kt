@@ -18,12 +18,16 @@ class LoginFragment : Fragment() {
     ): View {
         // Inflate the layout for this fragment
         binding = FragmentLoginBinding.inflate(inflater, container, false)
-        binding.buttonLogin.setOnClickListener{
+        binding.btnLogin.setOnClickListener{
             findNavController().navigate(R.id.action_loginFragment_to_homeFragment)
         }
 
-        binding.tvSignup.setOnClickListener {
+        binding.tvToSignup.setOnClickListener {
             findNavController().navigate(R.id.action_loginFragment_to_registerFragment)
+        }
+
+        binding.tvForgotPassword.setOnClickListener {
+            findNavController().navigate(R.id.action_loginFragment_to_forgotPasswordFragment2)
         }
 
         return binding.root

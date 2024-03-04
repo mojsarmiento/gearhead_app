@@ -23,7 +23,7 @@ class RegisterFragment : Fragment() {
            findNavController().navigate(R.id.action_registerFragment_to_loginFragment5)
         }
 
-        binding.buttonRegister.setOnClickListener{
+        binding.btnSignup.setOnClickListener{
             findNavController().navigate(R.id.action_registerFragment_to_homeFragment)
         }
         return binding.root
